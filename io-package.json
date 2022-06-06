@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "pool-manager",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Pool Manager",
+		"titleLang": {
+			"en": "Pool Manager",
+			"de": "Pool-Manager",
+			"ru": "Менеджер пула",
+			"pt": "Gerente de pool",
+			"nl": "Zwembadmanager",
+			"fr": "Gestionnaire de piscine",
+			"it": "Responsabile della piscina",
+			"es": "Gerente de piscina",
+			"pl": "Menedżer puli",
+			"zh-cn": "池管理器"
+		},
+		"desc": {
+			"en": "pool-manager",
+			"de": "Pool-Manager",
+			"ru": "пул-менеджер",
+			"pt": "gerente de piscina",
+			"nl": "pool-manager",
+			"fr": "gestionnaire de piscine",
+			"it": "gestore della piscina",
+			"es": "administrador de la piscina",
+			"pl": "menedżer puli",
+			"zh-cn": "池管理器"
+		},
+		"authors": [
+			"ZeroQool <zeroqool@gmx.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "pool-manager.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/ZeroQool007/ioBroker.pool-manager/main/admin/pool-manager.png",
+		"readme": "https://github.com/ZeroQool007/ioBroker.pool-manager/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "garden",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

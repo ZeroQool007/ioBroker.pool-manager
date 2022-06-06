@@ -1,0 +1,37 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "pool-manager",
+	"title": "Pool Manager",
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "garden",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "TypeScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint"
+	],
+	"i18n": "words.js",
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"authorName": "ZeroQool",
+	"authorGithub": "ZeroQool007",
+	"authorEmail": "zeroqool@gmx.de",
+	"gitRemoteProtocol": "SSH",
+	"gitCommit": "yes",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"creatorVersion": "2.1.1"
+}
