@@ -1,22 +1,6 @@
-![Logo](admin/pool-manager.png)
-# ioBroker.pool-manager
+chore: release v0.0.2
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.pool-manager.svg)](https://www.npmjs.com/package/iobroker.pool-manager)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.pool-manager.svg)](https://www.npmjs.com/package/iobroker.pool-manager)
-![Number of Installations](https://iobroker.live/badges/pool-manager-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/pool-manager-stable.svg)
-[![Dependency Status](https://img.shields.io/david/ZeroQool007/iobroker.pool-manager.svg)](https://david-dm.org/ZeroQool007/iobroker.pool-manager)
-
-[![NPM](https://nodei.co/npm/iobroker.pool-manager.png?downloads=true)](https://nodei.co/npm/iobroker.pool-manager/)
-
-**Tests:** ![Test and Release](https://github.com/ZeroQool007/ioBroker.pool-manager/workflows/Test%20and%20Release/badge.svg)
-
-## pool-manager adapter for ioBroker
-
-PoolManager for ioBroker
-
-## Changelog
-### **WORK IN PROGRESS**
+* initial release
 
 ## License
 MIT License
